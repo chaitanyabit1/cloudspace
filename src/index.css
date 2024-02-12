@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'Kodchasan';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kodchasan Regular'), url('./assets/fonts/Kodchasan-Regular.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Kodchasan';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Kodchasan Bold'), url('./assets/fonts/Kodchasan-Bold.woff') format('woff');
+  }
+  
+
+
+  @font-face {
+  font-family: 'Kodchasan';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Kodchasan Medium Regular'), url('./assets/fonts/Kodchasan-Medium.woff') format('woff');
+  }
+  
+  @font-face {
+  font-family: 'Kodchasan';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Kodchasan SemiBold Regular'), url('./assets/fonts/Kodchasan-SemiBold.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'inter';
+    src: url('./assets/fonts/inter-semibold-webfont.woff2') format('woff2'),
+         url('./assets/fonts/inter-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'jost';
+  src: url('./assets/fonts/jost500medium-webfont.woff2') format('woff2'),
+       url('./assets/fonts/jost500medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'jost';
+  src: url('./assets/fonts/jost600semi-webfont.woff2') format('woff2'),
+       url('./assets/fonts/jost600semi-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Kodchasan';
+}
+
+p{
+  line-height: 36px;
+  font-size: 16px;
+}
+
+
+@media only screen and (max-width: 1536px) {
+  p{
+    line-height: 28px;
+    font-size: 14px;
+  }
+}
+  
+
+  
